@@ -306,7 +306,7 @@ const GameDisplay = ({ isGameStarted, handleGameOver }) => {
         </div>
       )}
       {!isPaused && (
-        <div className="game-option">
+        <div className="game-options">
           <button onClick={handlePause}>Pause</button>
           <SoundComponent toggleMute={toggleMute} isMute={isMute} />
         </div>
