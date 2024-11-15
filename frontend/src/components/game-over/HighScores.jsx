@@ -1,7 +1,7 @@
 import Clock from "../../assets/images/clock.webp";
 import Star from "../../assets/images/star.png";
 
-function HighScores({ highScores, onRestart }) {
+function HighScores({ highScores, handleRestart }) {
   return (
     <div className="high-score-container">
       <div>
@@ -32,7 +32,7 @@ function HighScores({ highScores, onRestart }) {
             </tbody>
           </table>
         </div>
-        <button onClick={onRestart}>Play Again</button>
+        <button onClick={handleRestart}>Play Again</button>
       </div>
     </div>
   );
